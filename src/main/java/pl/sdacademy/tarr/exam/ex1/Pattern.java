@@ -1,4 +1,5 @@
 package pl.sdacademy.tarr.exam.ex1;
+
 /*
 Leszek Żebrowski
 egzamin JAVA 2020-12-13
@@ -11,15 +12,15 @@ public class Pattern {
 
 // check if input parameter size OK
 
-		if(size <1)return pattern;
+        if (size < 1) return pattern;
 
-		if(size ==1) {
-			pattern= pattern+sign+"\n";
-			return pattern;
-		}
+        if (size == 1) {
+            pattern = pattern + sign + "\n";
+            return pattern;
+        }
 
 
-		// TODO: implementation
+        // TODO: implementation
 
         int i, j, k;
         // pierwsza linia
@@ -55,6 +56,6 @@ public class Pattern {
 
     public static void main(String[] args) {
         Pattern testpattern = new Pattern();
-        System.out.println(testpattern.prepareSquareWithDiagonals('x', 10));
+        System.out.println(testpattern.prepareSquareWithDiagonals(' ', 10));
     }
 }
